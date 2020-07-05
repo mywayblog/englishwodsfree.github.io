@@ -1,5 +1,6 @@
-words = ['ball','blast','smoke','hell','flash','inhale','trust','fog','interference','disaster','a disaster','a sense','sense','deal','evil','far','front','laugh','put','resident','robber','to rob','to reach','to sense'];
-// ru_words = ['мяч','взрыв', 'дым', 'ад', 'вспышка', 'вдох', 'доверие', 'туман', 'помехи', 'бедствие', 'катастрофа', 'смысл', 'чувство','сделка, дело','злой', 'далеко', 'перед', 'смех', 'класть', 'постоялец', 'грабитель', 'грабить', 'достичь', 'чувствать'];
+words = ['ball','blast','smoke','hell','flash','inhale','trust','fog','interference','disaster','a disaster','a sense','sense','deal','evil','far','front','laugh','put','resident','robber','to rob','to reach','to sense',
+	 'stuck','keep','breath','awesome','habit','healthy','addiction','substance','completely','lung','respect','calm','deep','throad','blade','weapons','combat','close','bullet','still','fork','steel','sin','innocent','lift','fear','peer','verb','noun'];  
+
 let rru_words = {   
 	'ball':'мяч',
 	'blast':'взрыв',
