@@ -1,5 +1,5 @@
   function get_word() {
-  	let num_word = Math.floor(Math.random()*3);
+  	let num_word = Math.floor(Math.random()*4);
   	return choice[num_word];
   };
 
@@ -22,8 +22,10 @@ let num_word_1 = getRandomNum(),
 
 	num_word_3 = getRandomNum();
 
+	num_word_4 = getRandomNum();
 
-choice = [num_word_1, num_word_2, num_word_3];
+
+choice = [num_word_1, num_word_2, num_word_3, num_word_4];
 
 
 let this_word = get_word();
@@ -38,6 +40,8 @@ let word_2 = num_word_2;
 
 let word_3 = num_word_3;
 
+let word_4 = num_word_4;
+
 
 let img_1 = 'img/'+word_1+'.jpg';
 
@@ -45,8 +49,10 @@ let img_2 = 'img/'+word_2+'.jpg';
 
 let img_3 = 'img/'+word_3+'.jpg';
 
+let img_4 = 'img/'+word_4+'.jpg';
 
-im_arr = [img_1, img_2, img_3];
+
+im_arr = [img_1, img_2, img_3, img_4];
 
 
 $('.f1').attr('src', img_1);
@@ -54,6 +60,8 @@ $('.f1').attr('src', img_1);
 $('.f2').attr('src', img_2);
 
 $('.f3').attr('src', img_3);
+
+$('.f4').attr('src', img_4);
 
 
 
@@ -66,14 +74,15 @@ $('.wert').append("<input id='voice' onclick='responsiveVoice.speak(`" + this_wo
 let a_f_ob = {
 	[img_1] :'a_1',
 	[img_2] :'a_2',
-	[img_3] :'a_3'
+	[img_3] :'a_3',
+	[img_4] :'a_4'
 };
 
 
-for (var i = -1; i <= 3; i++) {
+for (var i = -1; i <= 4; i++) {
 	 if (this_word === choice[i]){
 	 		
-	 			for (var ii = 0 ; ii <= 3; ii++) {
+	 			for (var ii = 0 ; ii <= 4; ii++) {
 	 				if (im_arr[ii] ==='img/'+this_word+'.jpg') {
 	 					
 	 				let a_no_trup =  a_f_ob[im_arr[ii]];
@@ -89,7 +98,7 @@ $('.trans').click(function(){
   $(this).css('background', 'white');
   setTimeout(function qwe() {
     	$('.trans').css('background', 'black')
-    },1200);
+    },2500);
 	// clearTimeout(timesut);
 });
 
@@ -97,21 +106,4 @@ $('.trans').click(function(){
 $('.ansew_ru').text(rru_words[this_word]);
 
 
-// function send(w_form) {
-// 	let w_en = w_form.en_name.value;
-// 	let w_ru = w_form.ru_name.value;
-// 	let f_jpg = $("#w_form input[name=file_jpg]").val();
-	
-// 	if (w_en == '' || w_en == ' ') {
-// 		alert('no english wors')
-// 		}
-// 	else if (w_ru == '' || w_ru == ' ') {
-// 		alert('no russan word')
-// 		}
-// 	else if (f_jpg == '') {
-// 		alert('no picture')
-// 	}else{}
-// }
-
-
-// words.push($('#e_w').val());
+$('#today_words').text(words.length + 2)
