@@ -3,7 +3,8 @@
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="style.css" content="text/css">
-  <title>Learn on Art English</title>
+  <title>Art English</title>
+  <link rel="shortcut icon" href="img/icons/iccon.png" type="image/png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=PNsqlYAU"></script>
  </head>
@@ -34,14 +35,51 @@
 			<a class="a_hr a_4" href="">
 				<img class="cd_img f4" id="im_4" src=""></a>	
 		</div>
-<div class="main_trans"><h2>ПЕРЕВОД</h2><hr>	
+<div class="main_trans"><h2>ПЕРЕВОД</h2><span>№ <span id="word_num"></span></span><hr>	
 <div class="trans">
-	<h1><p class="ansew_ru"></p></h1>
+	<h1 id="flek"><p class="ansew_ru"></p></h1>
 </div>
 </div>
 
-<div id="word_count"><p><h2 id="to_wrd">Today words count is <p><span id="today_words"></span><span> words</span></p></h2></p>
+<form>
+  <input id="www" autocomplete="off" type="text" placeholder="search word" onkeyup="keyup()">
+<div class="form_serch">	
+	<div class="search_anser" id="sa1">
+	
+	<input class="ser" id="1_resultр"></input>
+		<input class="ser oni_ser" id="1_result_trans"></input>
+	</div>
+
+	<div class="search_anser" id="sa2">
+
+	<input class="ser" id="2_resultр"></input>
+		<input class="ser oni_ser" id="2_result_trans"></input>
+	</div>
+	
+	<div class="search_anser" id="sa3">
+	
+	<input class="ser" id="3_resultр"></input>
+		<input class="ser oni_ser" id="3_result_trans"></input>
+
+	</div>
+
+	<div class="search_anser" id="sa4">
+	
+	<input class="ser" id="4_resultр"></input>
+		<input class="ser oni_ser" id="4_result_trans"></input>
+
+	</div>
+
+	<div class="search_anser" id="sa5">
+	
+	<input class="ser" id="5_resultр"></input>
+		<input class="ser oni_ser" id="5_result_trans"></input>
+
+	</div>
 </div>
+</form>
+
+
 		<!-- 	
 <div class="form_nwe">
 				<form method="post" action="" enctype="multipart/form-data" id="w_form" name="giv_word" onsubmit ="send(document.getElementById('w_form'))">
@@ -59,7 +97,13 @@
 
 	</main>
 
+<div id="word_count"><p><h2 id="to_wrd">Today words count is <p><span id="today_words"></span><span> words</span></p></h2></p>
+</div>
 
+<footer><span id="footer_">footer</span>
+<span id="mob">mobile size</span>
+<span id="ver">V 1.2   last updata  09.07 ©2020</span>
+</footer>
 
 
 
@@ -72,3 +116,7 @@
 	
  </body>
 </html>
+
+
+
+
