@@ -1,13 +1,13 @@
 words = ['ball','blast','smoke','hell','flash','inhale','trust','fog','interference','disaster','a disaster','a sense','sense','deal','evil','far','front','laugh','put','resident','robber','to rob','to reach','to sense',
 	 'stuck','keep','breath','steel','awesome','habit','healthy','bulletproof','addiction','inhibited','substance','wind','completely','lungs','respect','calm','deep','throat','blade','truly','weapons','combat','close',
 	 'bullet','still','fork','steel','sin','innocent','lift','fear','peer','verbs','nouns','particular','corner','stranded','stranding','mortal','enough',
-	 'advertisement','endless',"What's the score",'score','shout','in favour of','unfortunately','tie','prepare','get rid of','rooster','no way','have (something) against','riled (up)','to waste of','person','thought','apartment','goalie'
-	 ,'imaginary','has (something) to do with','What does it have to do with','pet peeve','alone','freak out','Are you nuts','nuts','government','freedom','make a decision','pending'];
+	 'advertisement','endless',"what's the score",'score','shout','in favour of','unfortunately','tie','prepare','get rid of','rooster','no way','have (something) against','riled (up)','to waste of','person','thought','apartment','goalie'
+	 ,'imaginary','has (something) to do with','what does it have to do with','pet peeve','alone','freak out','are you nuts','nuts','government','freedom','make a decision','pending'];
 words_ = ['ball','blast','smoke','hell','flash','inhale','trust','fog','interference','disaster','a disaster','a sense','sense','deal','evil','far','front','laugh','put','resident','robber','to rob','to reach','to sense',
 	 'stuck','keep','breath','steel','awesome','habit','healthy','bulletproof','addiction','inhibited','substance','wind','completely','lungs','respect','calm','deep','throat','blade','truly','weapons','combat','close',
 	 'bullet','still','fork','steel','sin','innocent','lift','fear','peer','verbs','nouns','particular','corner','stranded','stranding','mortal','enough',
-	 'advertisement','endless',"What's the score",'score','shout','in favour of','unfortunately','tie','prepare','get rid of','rooster','no way','have (something) against','riled (up)','to waste of','person','thought','apartment','goalie'
-	 ,'imaginary','has (something) to do with','What does it have to do with','pet peeve','alone','freak out','Are you nuts','nuts','government','freedom','make a decision','pending'];
+	 'advertisement','endless',"what's the score",'score','shout','in favour of','unfortunately','tie','prepare','get rid of','rooster','no way','have (something) against','riled (up)','to waste of','person','thought','apartment','goalie'
+	 ,'imaginary','has (something) to do with','what does it have to do with','pet peeve','alone','freak out','are you nuts','nuts','government','freedom','make a decision','pending'];
 
 let rru_words = {   
 	'ball':'мяч',
@@ -75,7 +75,7 @@ let rru_words = {
 	'enough':'достаточно',
 	'advertisement':'рекламное объявление',
 	'endless':'бесконечный',
-	"What's the score":'Какой сейчас счёт?',
+	"what's the score":'Какой сейчас счёт?',
 	'score':'очко, счёт',
 	'shout':'крик, кричать',
 	'in favour of':'в пользу...',
@@ -94,11 +94,11 @@ let rru_words = {
 	'goalie':'вратарь',
 	'imaginary':'воображаемый',
 	'has (something) to do with':'(что-то) связаное с...',
-	'What does it have to do with':'Какое это имеет отношение к...',
+	'what does it have to do with':'Какое это имеет отношение к...',
 	'pet peeve':'то что раздражает...',
 	'alone':'только, в одиночестве, один',
 	'freak out':'испугаться, злиться',
-	'Are you nuts':'Ты сошёл с ума?',
+	'are you nuts':'Ты сошёл с ума?',
 	'nuts':'орешки',
 	'government':'правительство',
 	'freedom':'свобода',
