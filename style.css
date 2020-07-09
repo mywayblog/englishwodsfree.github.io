@@ -237,6 +237,10 @@ footer{
 	border: solid #AFAFA8 4px;
 	border-radius: 3px;
 	} 
+	#mob{
+	margin: 10px 20px; 
+		display: block;
+	}
 .cd_img:hover{
 	width: 355px;
 	height: 255px;
