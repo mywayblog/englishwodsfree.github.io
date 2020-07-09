@@ -69,7 +69,7 @@ $('.f4').attr('src', img_4);
 $('.a_hr').attr('href','#');
 
 
-$('.wert').append("<input id='voice' onclick='responsiveVoice.speak(`" + this_word + "`);' type='button'  style='border: 1px solid #000;padding: 5px 5px 5px 40px; margin-top:15px; height: 45px;  background: url(img/icons/_sound.jpg) no-repeat 3px 1px;    background-size:100%; }'/> ");
+$('.wert').append("<input id='voice' onclick='responsiveVoice.speak(`" + this_word + "`);' type='button'  style='border: 1px solid #000;padding: 5px 5px 5px 40px; margin-top:15px; height: 45px;  background: url(img/icons/sound.jpg) no-repeat 3px 1px;    background-size:100%; }'/> ");
 
 
 let a_f_ob = {
