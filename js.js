@@ -4,6 +4,7 @@ function get_word() {
   };
 
 let col = console.log;
+let al = alert;
 
     var randoms = words;
 function getRandomNum() {
@@ -12,9 +13,6 @@ function getRandomNum() {
 	randoms.splice(rnd,1);
 	return toReturn;
 };
-
-
-
 
 
 let num_word_1 = getRandomNum(), 
@@ -69,7 +67,7 @@ $('.f4').attr('src', img_4);
 $('.a_hr').attr('href','#');
 
 
-$('.wert').append("<input id='voice' onclick='responsiveVoice.speak(`" + this_word + "`);' type='button'  style='border: 1px solid #000;padding: 5px 5px 5px 40px; margin-top:15px; height: 45px;  background: url(img/icons/sound.jpg) no-repeat 3px 1px;    background-size:100%; }'/> ");
+$('.wert').append("<input id='voice' onclick='responsiveVoice.speak(`" + this_word + "`);' type='button'  style='border: 1px solid #000;padding: 5px 5px 5px 40px; margin-top:15px; height: 100px;  width: 100px;  background: url(img/icons/sound.jpg) no-repeat 3px 1px;    background-size:100%; }'/> ");
 
 
 let a_f_ob = {
@@ -583,3 +581,22 @@ $( "#www" ).focus(function(){
 
 
     });
+
+
+// let width = document.body.clientWidth; // ширина  
+// let height = document.body.clientHeight; // высота
+// // al($('body').width())
+
+if ( (($('body').width())-18) < 1205 && (($('body').width())-18) > 817) {
+// col(width);
+	let img_width = (($('body').width())/2)-30 ;
+
+	let img_height = (3 * img_width) / 4;
+
+	$('.cd_img').width( img_width );
+
+	$('.cd_img').height( img_height );
+
+
+	col( img_width, img_height	 );
+}

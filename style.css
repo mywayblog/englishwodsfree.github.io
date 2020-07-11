@@ -1,18 +1,26 @@
+* {
+	margin:0;
+}
 body{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align: center;
+	width: 100%;
 	background-color: #F2F3B5
 }
 main{
 	 
 }
-a{      color: black;
+a{	
+	color: black;
 	text-decoration: none;
+}
+.img_arts{
+	width: 100%;
 }
 .cd_img{
 	width: 450px;
 	height: 350px;
-	margin: 15px;
+	margin: 5px; 
 	border: solid #AFAFA8 4px;
 	border-radius: 3px;
 
@@ -160,7 +168,8 @@ form {
   margin-right: 300px;
 }
 #www{
-  width: 300px;
+  /*text-transform:  lowercase;
+*/  width: 300px;
   height: 42px;
   padding-left: 15px;
   border-radius: 20px;
@@ -229,11 +238,20 @@ footer{
     margin: 0 0;
     border-radius: 0;
 }
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1205px) {  
 	.cd_img{
 	width: 350px;
 	height: 250px;
-	margin: 15px;
+	/*margin: 5px;*/
 	border: solid #AFAFA8 4px;
 	border-radius: 3px;
 	} 
@@ -248,7 +266,24 @@ footer{
 
 	}
 
+	.dick{
+	font-size: 100px	
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 817px) { 
 	.cd_img{
 	width: 250px;
