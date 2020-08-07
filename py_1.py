@@ -30,14 +30,23 @@ import requests #импортируем модуль
 
 ##########################################################################3
 
-py_v = 'py_2.py'
+n_py_v = 'py_2.py'
 t_py_v = 'py_1.py'
 
-ufffr = requests.get("https://mywayblog.github.io/englishwodsfree.github.io/"+ t_py_v) #делаем запрос
+ufffr = requests.get("https://mywayblog.github.io/englishwodsfree.github.io/"+ n_py_v) #делаем запрос
 
-print(ufffr)
+if ufffr:
+	fff=open(r'C://Users//Admin//Downloads//'+ n_py_v,"wb") #открываем файл для записи, в режиме wb
+	fff.write(ufffr.content) #записываем содержимое в файл; как видите - content запроса
+	fff.close()
+
+	fffile_path = "C://Users//Admin//Downloads//englishwodsfree.github.io-master//" + t_py_v
+	os.remove(fffile_path)
+
+
+# print(type(ufffr))
 # if 
 
-# fff=open(r'C://Users//Admin//Downloads//'+ py_v,"wb") #открываем файл для записи, в режиме wb
-# fff.write(ufffr.content) #записываем содержимое в файл; как видите - content запроса
-# fff.close()
+
+
+
